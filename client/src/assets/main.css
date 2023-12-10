@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-rect{
+    width: 35rem;
+    height: 42rem;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #2c3e50;
+    border-width: 10px;
+}
+
+.output-rect{
+    width: 100%;
+    margin-top: 1rem;
+    height: 24rem;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid rgba(44, 62, 80, 0.5);
+    font-family: 'Lato', sans-serif;
+}
+
+.output-rect::-webkit-scrollbar {
+    display: none;
+}
+
+
+.target-text-field {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom-color: #c4c4c4;
+    width: 18rem;
+    height: 3rem;
+}
+
+.command-text-field {
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom-color: #c4c4c4;
+    width: 32rem;
+    height: 3rem;
+}
+
+.dropdown {
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-bottom-color: #c4c4c4;
+    width: 8rem;
+    height: 3rem;
+}
+
+.bg-grad {
+    background: linear-gradient(323deg, #2c3e50, #4ca1af);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 19s ease infinite;
+    -moz-animation: AnimationName 19s ease infinite;
+    animation: AnimationName 19s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
